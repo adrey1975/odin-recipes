@@ -1,4 +1,5 @@
 html{
+    
     min-height: 100vh;
     background: linear-gradient(#6d5c79, #9289ae);
 }
@@ -42,3 +43,14 @@ ul{
     text-decoration: line-through;
     text-shadow: 1px 1px black; 
 }
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    max-width: 100%;
+    align-items:stretch;
+}
+
