@@ -1,0 +1,40 @@
+html{
+    min-height: 100vh;
+    background: linear-gradient(#322839, #1a1820);
+}
+
+h1{
+    position: relative;
+    font-family: "Times New Roman", Helvetica, sans-serif;
+    font-size: 175px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    animation: intro 2s forwards;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    background-image: url(cloud.gif);
+    background-size: 300px 300px;
+    color: transparent;
+    -webkit-background-clip: text;
+    
+
+}
+
+ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    animation: intro 2s forwards;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
