@@ -1,6 +1,6 @@
 html{
     min-height: 100vh;
-    background: linear-gradient(#322839, #1a1820);
+    background: linear-gradient(#6d5c79, #9289ae);
 }
 
 h1{
@@ -15,19 +15,21 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    letter-spacing: .15em;
+
 }
+
+
 h1{
     background-image: url(cloud.gif);
     background-size: 300px 300px;
     color: transparent;
     -webkit-background-clip: text;
-    
-
 }
 
 ul{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
@@ -37,4 +39,6 @@ ul{
     align-items: center;
     justify-content: center;
     list-style-type: none;
+    text-decoration: line-through;
+    text-shadow: 1px 1px black; 
 }
