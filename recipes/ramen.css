@@ -1,0 +1,126 @@
+html{
+    
+    min-height: 100vh;
+    background: linear-gradient(#6d5c79, #9289ae);
+}
+
+h1{
+    position: relative;
+    font-family: "Times New Roman", Helvetica, sans-serif;
+    font-size: 175px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    animation: intro 2s forwards;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: .15em; 
+}
+h1{
+    background-image: url(cloud\ copy.gif);
+    background-size: 300px 300px;
+    color: transparent;
+    -webkit-background-clip: text;
+    
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    animation: intro 2s forwards;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: dashed;
+    text-shadow: 1px 1px black; 
+
+}
+.paragraph{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    animation: intro 2s forwards;
+    display: flex;
+    flex-direction: column;
+    text-shadow: 1px 1px black; 
+}
+
+ol{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    animation: intro 2s forwards;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: dashed;
+    text-shadow: 1px 1px black; 
+}
+
+ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    animation: intro 2s forwards;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: dashed;
+    text-shadow: 1px 1px black; 
+
+}
+a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    animation: intro 2s forwards;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-decoration: line-through;
+    text-shadow: 1px 1px black; 
+    
+}
+
+/* IMAGE SHADOW & CSS*/
+body {background-color: linear-gradient(#6d5c79, #9289ae);; margin: 3rem;}
+
+img {
+    position: relative;
+    width: auto;
+    height: 375px;
+    background: linear-gradient(#6d5c79, #9289ae);
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    color: linear-gradient(#6d5c79, #9289ae);
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    align-items:stretch;
+  }
+  img:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+  }
+
